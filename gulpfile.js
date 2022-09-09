@@ -26,7 +26,7 @@ function copyHTML(cb) {
 }
 
 function copyFont(cb) {
-    gulp.src("src/assets/fonts/**/*.*").pipe(gulp.dest("dist"));
+    gulp.src("src/assets/fonts/**/*.*").pipe(gulp.dest("dist/fonts"));
     cb();
 }
 

@@ -1,5 +1,5 @@
 
-$path: '/itc-avant-garde/';
+$path: '/fonts/itc-avant-garde/';
 $name: 'ITC Avant Garde Pro';
 
 @font-face {
@@ -51,7 +51,7 @@ $name: 'ITC Avant Garde Pro';
 }
 
 
-$avanir-path: '/avenir/';
+$avanir-path: '/fonts/avenir/';
 @font-face {
     font-family: 'Avenir';
     src: url(#{$avanir-path + 'Avenir-Black.eot'});
