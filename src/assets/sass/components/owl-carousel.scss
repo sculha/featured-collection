@@ -1,0 +1,40 @@
+.owl-carousel{
+
+    .owl{
+        &-nav{
+            button{
+                &.owl-prev, &.owl-next{
+                    position: absolute;
+                    width: 40px;
+                    height: 40px;
+                    border: 1px solid rgba(0, 0, 0, 0.1);
+                    top: 45%;
+                    transform: translateY(-50%);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 0;
+
+                    span{
+                        font-size: 0;
+                        width: 7px;
+                        height: 13px;
+                        background-image: url('/images/arrow-left.png');
+                    }
+                }
+        
+                &.owl-prev{
+                    left: 48px;
+
+                    span{
+                        transform: rotate(180deg);
+                    }
+                }
+                &.owl-next{
+                    right: 48px;
+                }
+            }
+            
+        }
+    }
+}

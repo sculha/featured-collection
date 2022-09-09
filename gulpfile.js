@@ -59,7 +59,7 @@ function js(cb) {
 function jsLib(cb) {
     gulp.src([
         'src/assets/lib/jquery/*.js', 
-        'src/assets/lib/owlcarousel/js/owl.carousel.js'
+        'src/assets/lib/owlcarousel/js/owl.carousel.min.js'
     ])
         .pipe(babel({
             presets: ['@babel/preset-env']
