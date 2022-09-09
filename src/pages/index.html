@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="feature">
+    <div class="feature-img">
+        <img src="images/1.png" alt="">
+    </div>
+    <div class="feature-content">
+        <h1>Everyday items, we have something to suit every occasion.</h1>
+        <p> At suspendisse augue lectus arcu, accumsan ut sit posuere vitae sit tincidunt semper eu proin leo gravida cursus. </p>
+        <a href="#" class="link">Shop all everyday items</a>
+        
+        {% include "product-list.html" %}
+
+    </div>
+</section>
+
+{% endblock %}

@@ -1,0 +1,89 @@
+
+$path: '/itc-avant-garde/';
+$name: 'ITC Avant Garde Pro';
+
+@font-face {
+    font-family: $name; // 'ITC Avant Garde Pro Bk'
+    src: url(#{$path + 'ITCAvantGardePro-Bk.eot'});
+    src: url(#{$path + 'ITCAvantGardePro-Bk.eot?#iefix'}) format('embedded-opentype'),
+         url(#{$path + 'ITCAvantGardePro-Bk.woff2'}) format('woff2'),
+         url(#{$path + 'ITCAvantGardePro-Bk.woff'}) format('woff'),
+         url(#{$path + 'ITCAvantGardePro-Bk.ttf'}) format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: $name; // 'ITC Avant Garde Pro Bk'
+    src: url(#{$path + 'ITCAvantGardePro-Demi.eot'});
+    src: url(#{$path + 'ITCAvantGardePro-Demi.eot?#iefix'}) format('embedded-opentype'),
+         url(#{$path + 'ITCAvantGardePro-Demi.woff2'}) format('woff2'),
+         url(#{$path + 'ITCAvantGardePro-Demi.woff'}) format('woff'),
+         url(#{$path + 'ITCAvantGardePro-Demi.ttf'}) format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: $name; // 'ITC Avant Garde Pro Md'
+    src: url(#{$path + 'ITCAvantGardePro-Bold.eot'});
+    src: url(#{$path + 'ITCAvantGardePro-Bold.eot?#iefix'}) format('embedded-opentype'),
+         url(#{$path + 'ITCAvantGardePro-Bold.woff2'}) format('woff2'),
+         url(#{$path + 'ITCAvantGardePro-Bold.woff'}) format('woff'),
+         url(#{$path + 'ITCAvantGardePro-Bold.ttf'}) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: $name; // 'ITC Avant Garde Pro Md'
+    src: url(#{$path + 'ITCAvantGardePro-Md.eot'});
+    src: url(#{$path + 'ITCAvantGardePro-Md.eot?#iefix'}) format('embedded-opentype'),
+         url(#{$path + 'ITCAvantGardePro-Md.woff2'}) format('woff2'),
+         url(#{$path + 'ITCAvantGardePro-Md.woff'}) format('woff'),
+         url(#{$path + 'ITCAvantGardePro-Md.ttf'}) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+$avanir-path: '/avenir/';
+@font-face {
+    font-family: 'Avenir';
+    src: url(#{$avanir-path + 'Avenir-Black.eot'});
+    src: url(#{$avanir-path + 'Avenir-Black.eot?#iefix'}) format('embedded-opentype'),
+         url(#{$avanir-path + 'Avenir-Black.woff2'}) format('woff2'),
+         url(#{$avanir-path + 'Avenir-Black.woff'}) format('woff'),
+         url(#{$avanir-path + 'Avenir-Black.ttf'}) format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url(#{$avanir-path + 'Avenir-Book.eot'});
+    src: url(#{$avanir-path + 'Avenir-Book.eot?#iefix'}) format('embedded-opentype'),
+         url(#{$avanir-path + 'Avenir-Book.woff2'}) format('woff2'),
+         url(#{$avanir-path + 'Avenir-Book.woff'}) format('woff'),
+         url(#{$avanir-path + 'Avenir-Book.ttf'}) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url(#{$avanir-path + 'Avenir-Medium.eot'});
+    src: url(#{$avanir-path + 'Avenir-Medium.eot?#iefix'}) format('embedded-opentype'),
+         url(#{$avanir-path + 'Avenir-Medium.woff2'}) format('woff2'),
+         url(#{$avanir-path + 'Avenir-Medium.woff'}) format('woff'),
+         url(#{$avanir-path + 'Avenir-Medium.ttf'}) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
